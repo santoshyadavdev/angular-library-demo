@@ -5,6 +5,12 @@
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "employee": [
+        "dist/employee/employee",
+        "dist/employee"
+      ]
+    },
     "strict": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
